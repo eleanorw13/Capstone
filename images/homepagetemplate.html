@@ -1,0 +1,174 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="shortcut icon" type="image/ico" href="../images/icons/favicon.ico" />
+	<link rel="stylesheet" href="../reset.css" />
+	<link rel="stylesheet" href="../960.css" />
+	<link rel="stylesheet" href="../style.css" />
+	<link rel="stylesheet" id="style-switcher" href="../style-default.css" />
+	<link rel="stylesheet" href="../vslider.css" />
+	<script type="text/javascript" src="../scripts/jquery.js"></script>
+	<script type="text/javascript" src="../scripts/jquery.vslider.js"></script>
+	<script type="text/javascript" src="../scripts/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../scripts/quick_contact.js"></script>
+	<script type="text/javascript">
+		$(window).load(function()
+			{
+				$("#slider").vSlider(
+				{
+					width: 960,
+					height: 320,
+				}
+				);
+			}
+		)
+	</script>
+	<title>Belleclectic Jewels, LLC</title>
+</head>
+<body class="home">
+	<div id="content" class="container_12 home">
+
+		<div id=top-content class="container_12">
+			<div id="logo" class="left">
+				<a href="index.cfm"><img src="../images/web banner large plaintext.png" alt="" /></a>
+		  </div>
+			<div id="menu" class=" right shadow">
+				<img src="images/menu-square.png" alt="" class="menu-square" />
+				<ul class="left">				
+					<li class="selected"><a href="index.cfm">Home</a><span></span></li>
+					<li><a href="diamonds.cfm">Diamonds</a></li>
+					<li><a href="#">Rings</a></li>
+                    <li><a href="#">Choose Your Own</a></li>
+					<li><a href="catalogue.cfm">Catalogue</a></li>
+					<li><a href="meetbelle.cfm">Meet Belle</a></li>
+					<li><a href="contact.cfm">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+
+<div class="clear"></div>
+			<div id="top-body" >
+			<!--	<h1 class="shadow">Bringing Out the Beauty Within You</h1>-->
+				<div id="images" class="theme-default">
+				<ul id="slider">
+					<li><img src="../images/placeholders/slide1.jpg" alt="" width="959" height="305" /></li>
+					<li><img src="../images/placeholders/slide2.jpg" alt="" width="723" height="334" /></li>
+					<li><img src="../images/placeholders/slide3.jpg" alt="" /></li>
+				</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div id="bottom-content">
+			<div id="articles">
+				<div id="article1" class="grid_4 alpha">
+					<h2 class="dotted grey-shadow"><span>About Us</span></h2>
+					<div class="clear"></div>
+					<p>
+					Belleclectic Jewels was founded in year 2012 and we are an online jewelry store that specializes in marketing and selling high quality rings for many different occasions such as Weddings, Anniversaries, Christmas, Engagement, Birthdays, and other special holidays.
+					</p>
+					<br />
+				</div>
+				<div id="article2" class="grid_4 ">
+				<h2 class="dotted grey-shadow"><span>Mission</span></h2>
+					<div class="clear"></div>
+					<p>"Offering  the best quality value jewelry products for our customers minus the costs."</p>
+</div>
+				<div id="article3" class="grid_4 omega">
+				<h2 class="dotted grey-shadow"><span>What We Offer</span></h2>
+					<div class="clear"></div>
+						<ul class="listed-items">
+						<li>Selection of styles, creations, of jewelry for different occasions.</li>
+						<li>Excellent Customer Service</li>
+						<li>Good quality jewelry at a fair and reasonable price </li>
+						<li>Various colors of diamonds, bezel settings and gold finishes for our rings.</li>
+						
+					</ul>
+					<br />
+				
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+	</div> 
+	<div id="info">
+	<div class="container_12">
+						
+						<div id="recent-posts" class="grid_8 alpha">
+										
+								<div id="blog">
+
+						  </div>
+								<div class="recent-post">									
+				
+									<p align="center"><img src="images/gia-wht.png" width="166" height="100" alt="gia" />
+						          <p align="center"><p><br><p><p align="center">
+                                  
+                                    <img src="images/paypal.jpg" width="319" height="110" alt="paypal" />
+                                <div class="clear"></div>
+										
+									</p>
+						  </div>
+	  </div>							
+						</div>
+						
+						<div id="contactUs" class="grid_4 omega">
+								<div id="internet" class="grey-shadow">
+									<h2>On the internet</h2>
+									<ul>
+										
+									  <li><a href="http://belleclecticjewels.blogspot.com/"><img src="images/social/blogger.png" alt="" width="32" height="32" /></a></li>
+										<li>
+										  <a href="https://www.facebook.com/BelleclecticJewels">
+										    <img src="images/icons/32/facebook.png" alt="" />
+									      </a>
+									  </li>
+										<li>
+											<a href="http://instagram.com/belleclecticjewels">
+												<img src="images/social/instagram.png" alt="" width="32" height="32" />
+											</a>
+				            </li>
+										<li><a href="http://pinterest.com/bellelecticjwl/">
+											<img src="images/social/pinterest.png" alt="" width="32" height="32" />
+										</a>				                        </li>
+										<li><a href="https://mobile.twitter.com/BelleclecticJwl"><img src="images/icons/32/twitter.png" alt="" /></a></li>
+										<li>
+											<a href="http://www.youtube.com/channel/UCx5UYCPMiBPcDKz7JNM5qUw">
+												<img src="images/social/youtube.png" alt="" width="32" height="32" />
+											</a>
+										</li>
+									</ul>
+									
+									</div>
+									<h2 class="grey-shadow">Quick Contact</h2>
+									<div id="message" style="display:none;"></div>
+									<div class="clear"></div>
+									    <cfform  action="quickcontactcfmail.cfm" method="POST">
+										<label for="user-email" class="left " > Email Address:</label>
+										<cfinput type="text" name="emailaddress" required="yes" message="Please enter a valid email address" validate="email">
+										<div class="clear"></div>
+										<label for="user-message" class="left">Message:</label>
+										<cftextarea name="message" required="yes" message="Please enter your message" rows="10" cols="60"></cftextarea>
+										<div class="clear"></div>										
+										<cfinput name="submit" type="submit" value="Submit" />
+									   </cfform>																	
+						</div>
+					</div>
+				</div>	
+<div id="outer-footer" >
+				<div id="footer" class="container_12">
+					<ul id="lower-menu" class="left">
+						<li><a href="../index.cfm">Home |</a></li>
+                        <li><a href="../faq.cfm"></a><a href="#">FAQ |</a></li>
+                        <li><a href="../privacy.cfm"></a><a href="#">Privacy |</a></li>
+                        <li><a href="../shipping.cfm"></a><a href="#">Shipping |</a></li>
+                        <li><a href="../staff.cfm"></a><a href="#">Staff |</a></li>
+					</ul>
+<p class="right">&copy; 2013 All rights reserved.</p>
+				</div>
+	</div>
+</body>
+</html>

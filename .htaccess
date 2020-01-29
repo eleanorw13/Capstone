@@ -1,0 +1,4 @@
+# Prevent all access to the site
+# order deny, allow
+# deny from all
+# allow from 64.207.234.198
